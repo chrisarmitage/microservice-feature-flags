@@ -1,0 +1,19 @@
+{
+  "name": "chrisarmitage/microservice-starting-point",
+  "type": "project",
+  "require": {
+    "php": "8.*",
+    "chrisarmitage/framework": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/chrisarmitage/framework"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Application\\": "application/"
+    }
+  }
+}
